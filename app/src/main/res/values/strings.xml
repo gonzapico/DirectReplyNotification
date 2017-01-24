@@ -1,3 +1,13 @@
 <resources>
   <string name="app_name">DirectReplyNotification</string>
+  <string name="reply_label">Reply on the notification</string>
+  <string name="reply">Reply</string>
+  <string name="notification_created">Notification created!</string>
+  <string name="type_reply">Type your reply..</string>
+  <string name="message_sent">Message sent!</string>
+  <string name="notification">Notification ID -> %1$d</string>
+  <string name="message_snackbar">Message ID: %1$d \nMessage: %2$s</string>
+  <string name="confirmation">Ok</string>
+  <string name="write_reply">Write your reply right here</string>
+  <string name="show_notification">Show notification</string>
 </resources>
