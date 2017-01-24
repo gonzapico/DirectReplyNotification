@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_reply"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:paddingBottom="45dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="45dp">
+
+  <EditText
+      android:id="@+id/edit_reply"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toLeftOf="@+id/button_send"
+      android:hint="@string/write_reply"/>
+
+  <ImageButton
+      android:id="@+id/button_send"
+      android:background="@color/colorPrimaryDark"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:clickable="true"
+      android:padding="8dp"
+      android:src="@android:drawable/ic_menu_send"/>
+</RelativeLayout>
